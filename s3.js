@@ -22,7 +22,7 @@ module.exports = function(key) {
             if (err) {
                 console.error(err)
             } else {
-                console.log("Successfully uploaded " + filename );
+                console.log("Successfully uploaded " + key );
             }
         })
     })
